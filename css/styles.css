@@ -2131,6 +2131,12 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .fixthetable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .6em;
+    table-layout: fixed;
+  }
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
@@ -3608,6 +3614,10 @@ textarea.form-control-lg {
   .dropdown-menu-sm-end[data-bs-popper] {
     right: 0;
     left: auto;
+  }
+  .fixthetable{
+    text-align: center;
+    table-layout: fixed;
   }
 }
 @media (min-width: 768px) {
@@ -11421,6 +11431,15 @@ header.masthead h1, header.masthead .h1 {
   header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
   }
+  .fixthetable {
+    
+    max-width: 70%; 
+  }
+  .stillbroken {
+    display: flex;
+    justify-content: center;
+  }
+  }
 }
 
 
@@ -11479,14 +11498,12 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
-.merritt {
-
-  text-align: center;
-  margin: auto;
-  padding: auto;
+.fixthetable {
+  margin-top: 30px;
 }
 
-.merritt thead {
-  border-bottom: 5px solid black;
-  font-size: 2rem;
+.email {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
