@@ -11389,6 +11389,8 @@ hr.divider-light {
   }
 }
 
+
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -11421,7 +11423,8 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
-table {
+
+/* table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
   --bs-table-striped-color: #212529;
@@ -11437,7 +11440,7 @@ table {
   vertical-align: top;
   border-color: #dee2e6;
   text-align: center;
-}
+} */
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
@@ -11473,4 +11476,17 @@ table {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+
+.merritt {
+
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.merritt thead {
+  border-bottom: 5px solid black;
+  font-size: 2rem;
 }
