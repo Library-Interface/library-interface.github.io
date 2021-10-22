@@ -11552,3 +11552,8 @@ header.masthead h1, header.masthead .h1 {
     transition: 0.5s;
   }
 
+.needcenter {
+  display: flex;
+  justify-content: center;
+
+}
