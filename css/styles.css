@@ -11506,3 +11506,49 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   justify-content: center;
 }
+
+.hovering a:hover {
+  background-color: rgba(33, 236, 219, 0.4);
+  box-shadow: 40px 19px 70px 20px rgba(0, 189, 196, 0.34), 20px 17px 40px 0 rgba(13, 164, 202, 0.19);
+  padding-right: 5px;
+  padding-top: 20px;
+}
+
+.hovering:hover:after{
+  cursor: pointer;
+  width: 100%
+}
+
+.hovering {
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.buttonmove:hover span {
+    padding-right: 25px;
+  }
+  
+.buttonmove:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .buttonmove span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .buttonmove span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
